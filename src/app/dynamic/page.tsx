@@ -1,10 +1,10 @@
 import TimestampDisplay from "../components/TimeStamp"
-export const revalidate = 30 // seconds
+export const dynamic = "force-dynamic"
 
 export default async function CachedPage() {
     return(
       <>
-      <p>Page cache 30 secs page</p>
+      <p>Fully dynamic page</p>
       <TimestampDisplay/>
       </>
     )
